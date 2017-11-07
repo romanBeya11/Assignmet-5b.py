@@ -1,0 +1,153 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 327}, {101, 71}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_cards_touch_up_inside",
+          "border_width" : 5,
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "9D66775A-7160-49F3-92CA-2128E59877D3",
+          "font_bold" : true,
+          "class" : "Button",
+          "corner_radius" : 45,
+          "border_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "name" : "check_cards_button",
+          "font_size" : 19
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 201}, {101, 80}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "draw_card_touch_up_inside",
+          "border_width" : 5,
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Draw a Card",
+          "uuid" : "8CF26214-6AFF-44D8-9CCD-B03C82AD198C",
+          "font_bold" : true,
+          "class" : "Button",
+          "corner_radius" : 45,
+          "border_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "name" : "draw_cards_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{285, 6}, {302, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "0CC1E129-AB13-4393-B320-6111F2B562F5",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Game of 21",
+          "name" : "instruction_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{208, 82}, {465, 83}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "E9FAA176-EFA5-4436-A625-75284DF17562",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "player_card_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{208, 201}, {465, 98}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "9368CBDD-5AF6-435F-9FA8-476C26DABFB6",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "dealer_card_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{208, 327}, {465, 186}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "629C5324-3969-4C05-9CF1-1F647B16F234",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "output_label",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 82}, {101, 83}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "E5ABB130-EB95-4C5F-88B3-5CB5B68A173D",
+          "corner_radius" : 45,
+          "frame" : "{{200, 144}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "border_width" : 5,
+          "title" : "View Cards",
+          "action" : "view_cards_touch_up_inside",
+          "alpha" : 1,
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "view_cards_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {863, 562}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
